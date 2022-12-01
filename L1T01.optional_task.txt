@@ -1,0 +1,10 @@
+Bonus Task: An algorithm that asks the user to enter four numbers, sorts those
+numbers from smallest to largest and then prints the sorted
+numbers.
+
+
+Request four numbers from user
+
+Sort numbers lowest to highest
+
+Display sorted numbers

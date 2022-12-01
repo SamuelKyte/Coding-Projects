@@ -1,0 +1,59 @@
+ Inside pseudo.txt, write pseudo code for each of the following scenarios:
+
+
+1.) An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were input.
+
+Request positive number from user
+
+If number = 0 
+
+ Display four of largest integers from list
+
+Else:
+
+Request another positive number from user and add to list
+
+
+
+2.) An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+
+Request list of numbers from user
+
+Calculate average = (Sum of variables) / number of variables 
+
+Display average of user list
+
+
+
+3.) An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy.
+
+Request grocery list from user
+
+Alphabetize/sort list 
+
+Display list
+
+Request user for items collected:
+	If entered item corresponds with the list:
+		Remove collected item from list
+		Display updated list
+
+	Else: 
+	Display "Item not found in list"
+
+
+
+
+4.) From Flow Chart:
+
+Request X from user
+Request Y from user
+
+Calculate S=X+Y
+
+Calculate A=S/2
+
+Calculate P=X * Y
+
+Display S, A, P
+

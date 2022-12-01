@@ -1,0 +1,59 @@
+Task 2
+
+1.) An algorithm that requests a user to input their name and then
+
+stores their name in a variable called first_name. Subsequently, the
+
+algorithm should print out first_name along with the phrase “Hello,
+
+World”.
+
+
+
+Create variable for first name by requesting user’s first name
+
+Display first name + “Hello World.”
+.
+.
+.
+.
+.
+first_name = input('Please enter your first name: ')
+print('Hello {first_name}, and Hello World!')
+
+
+
+
+
+2.) An algorithm that asks a user to enter their age and then stores
+
+their age in a variable called age. Subsequently, the algorithm
+
+should print out “You’re old enough” if the user’s age is over or
+
+equal to 18, or print out “Almost there” if the age is equal to or over
+
+16, but less than 18. Finally, the algorithm should print out “You’re
+
+just too young” if the user is younger than (and not equal to) 16
+
+
+
+Create age variable by Requesting users age --------> age = input('Please enter your age: ')
+
+	If age >=18:
+
+		Display “You’re old enough”
+
+	Else if >=16 but not >=18:
+
+		Display  “Almost there”
+
+	Else:
+	Display “You’re just too young...”
+
+
+
+Bonus: 
+
+Create variable n by requesting positive number from user.
