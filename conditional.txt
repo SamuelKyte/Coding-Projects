@@ -1,0 +1,56 @@
+ # The answers were provided in the dropbox so I copied and worked backwards.
+
+Identify P(A) and P(A and B):
+
+Risk Analysis: 
+You work for a risk analysis insurer. You have read that, this year, out of all drivers on the road, 5% have had accidents under the age of 25. You have also read that 10% of all drivers are under the age of 25. A new client approaches you and states that their age is 22. You want to calculate the chance that this driver has had an accident this year, based on their age.
+
+Event A = has had an accident. # hypothesis
+Event B = age is less than 25. # evidence
+
+P(B) = 0.1, P(A and B) = 0.05. # probability of Event B
+P(A|B) = 0.5 # probability of Event A given Event B
+
+Coin Flip: 
+Your friend told you that they would buy you lunch, if you can flip a coin and have it land on heads twice. You flip it the first time, and it lands on heads. What are your chances now of it landing on heads again?
+
+Event A = coin lands on Heads on second flip. 
+Event B = coin lands on Heads on first flip. 
+
+P(B) = 0.5 # probability of Event B
+P(A and B) = 0.25
+P(A|B) = 0.5 # probability of Event A given Event B
+
+Achieving Marks: 
+You were always told that knowing Maths helps you to achieve an 80 in Computer Science. You read some statistics, showing that 30% of all Computer Science graduates took Maths and achieved an 80. Overall, 60% of all Computer Science graduates took Maths. Considering you took Maths, what are your chances of achieving an 80?
+
+Event A = Achieving an 80
+Event B = doing Maths
+
+P(B) = 0.6 # probability of Event B
+P(A and B) = 0.3
+P(A|B) = 0.5 # probability of Event A given Event B
+
+
+Part 2:
+●  This is a mock study created using a total of 100 participants.
+●  The two orange areas show the total number of people who actually have COVID, and the two blue areas show the total number of people who don’t actually have COVID.
+●  The two darkly-coloured areas at the bottom show the people who tested positive for COVID. The two lightly-coloured areas show the people who tested negative for COVID.
+●  Using this diagram, and information learned from the video, state the following:
+○ H: our hypothesis
+○ E: our evidence
+
+● Then, give the values for:
+○ P(H)
+○ P(E|H)
+○ P(E)
+○ P(H|E)
+
+H = +COVID # we think were positive
+E = +COVID # we test positive
+
+
+P(H) = +COVID / Total = 70 / 100 = 0.7 # probability of hypothesis
+P(E|H) = (+COVID and Tested +COVID) / Total = 63 / 100 = 0.63 # probability of evidence, given hypothesis
+P(E) = Tested +COVID / Total = 64 / 100 = 0.64 # probability of evidence
+P(H|E) = ((P(H))(P(E|H)))/(P(E)) = ((0.7)(0.63))/(0.64) = 0.69 # probability of hypothesis given evidence
